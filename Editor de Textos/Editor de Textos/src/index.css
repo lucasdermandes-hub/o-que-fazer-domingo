@@ -1,0 +1,145 @@
+/* Reset básico da fonte */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aquamarine;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container Principal*/
+.home {
+  width: 100%;
+  max-width: 500px;
+  padding: 24px;
+  text-align: center;
+}
+
+.header-home h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.header-home p {
+  color: #18212e;
+  font-size: 1rem;
+  margin-bottom: 24px;
+}
+
+/* Botão principal*/
+.botao-comecar {
+  background-color: linear-gradient(135DEG, #2563eb, #1d4ed8);
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 200;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+.botao-comecar:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 25px -5px rgba(37, 99, 235, 0.5);
+}
+
+.botao-comecar:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.botao-comecar:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+/* Card resultado */
+.sugestao-card {
+  background: rgb(193, 255, 21);
+  border-radius: 20px;
+  padding: 28px;
+  margin-top: 32px;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  border:  1px solid rgb(193, 255, 21);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Animação quando revela o card*/
+.sugestao-card.revelado {
+  animation: popIn 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform:  scale(0.92) translateY(10px);
+  }
+
+  to{
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.sugestao-card h2 {
+  font-size: 1.4rem;
+  color:  #0f172a;
+  margin: 12px 0 8px 0;
+}
+
+.sugestao-card p {
+  color: #000000;
+  font-size: 0.95rem;
+  line-height:  1.5;
+  margin-bottom: 16px;
+}
+
+/* TAGS DE CATEGORIA */
+.beadge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background-color: #e2e8f0;
+}
+
+.badge-arlivre { background-color: #dcfce7; color: #15803d; }
+.badge-comida { background-color: #ffedd5; color: #c2410c; }
+.badge-entretenimento { background-color: #f3e8ff; color: #6b21a8; }
+.badge-passeio { background-color: #e0f2fe; color: #0369a1; }
+
+/* RODAPÉ DO CARD */
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #000000;
+  padding-top: 12px;
+  margin-top: 8px;
+}
+
+.preco {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+/**/
+/**/
+/**/
+/**/
