@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(144, 221, 183);
   color: black;
   display: flex;
   justify-content: center;
@@ -21,20 +22,17 @@ body {
   padding: 24px;
   text-align: center;
 }
-
 .header-home h1 {
   font-size: 1.8rem;
   font-weight: 800;
   color: #000000;
   margin-bottom: 8px;
 }
-
 .header-home p {
   color: #18212e;
   font-size: 1rem;
   margin-bottom: 24px;
 }
-
 /* Botão principal*/
 .botao-comecar {
   background-color: linear-gradient(135DEG, #2563eb, #1d4ed8);
@@ -48,7 +46,6 @@ body {
   box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.4);
   transition: all 0.3s ease-in-out;
 }
-
 .botao-comecar:hover:not(:disabled) {
   transform: translateY(-2px);
   box-shadow: 0 15px 25px -5px rgba(37, 99, 235, 0.5);
@@ -139,7 +136,108 @@ body {
   color: #64748b;
 }
 
-/**/
-/**/
-/**/
-/**/
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.5);
+  color: rgb(0, 0, 0);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-conteudo {
+  background: white;
+  width: 500px;
+  max-width: 90%;
+
+  padding: 30px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.fechar-modal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+.modal-conteudo form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal-conteudo input,
+.modal-conteudo textarea {
+    width: 100%;
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    box-sizing: border-box;
+}
+
+.botao-enviar {
+    width: 100%;
+    padding: 15px;
+
+    background: #2e7d32;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao-enviar:hover {
+  background: #256b29;
+  transform: translateY(-2px);
+
+}
+
+.botao-feedback {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  padding: 16px 28px;
+  font-size: 1.1rem; 
+  font-weight: 600; 
+ 
+  background-color: #9fdaf5; 
+  border: none;
+  border-radius: 50px; 
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.3); 
+  transition: all 0.3s ease;
+  z-index: 99;
+}
+.botao-feedback:hover {
+  background-color: #7b8cbd; 
+  transform: translateY(-3px) scale(1.02); 
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4); /
+}
+.botao-feedback:active {
+  transform: translateY(-1px) scale(1); 
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+}

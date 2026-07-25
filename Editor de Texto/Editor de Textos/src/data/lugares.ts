@@ -62,5 +62,54 @@ export const lugares: Lugar[] = [
     categoria: "Ar Livre",
     gratuito: true,
     descricao: "Ótimo lugar para caminhar e passear com seu cachorro."
-  }
+  },
+  {
+    id: 9,
+    nome: "Jogar Vídeo Game 🎮",
+    categoria: "Vídeo Game",
+    gratuito: true,
+    descricao: "Ótimo dia para jogar vídeo game."
+  },
+  {  
+    id: 10,
+    nome: "Andar de bicicleta 🚲",
+    categoria: "Ar Livre",
+    gratuito: true,
+    descricao: "Hoje está um ótimo dia para andar de bicicleta."
+  },
+  {
+    id: 11,
+    nome: "Ir para a academia",
+    categoria: "Atividade Física",
+    gratuito: false,
+    descricao: "Ótimo lugar para praticar uma aividade física."
+  },
+  {
+    id: 12,
+    nome: "Caminhadar",
+    categoria: "Ar Livre",
+    gratuito: true,
+    descricao: "Hoje está um ótimo dia para dar uma caminhada."
+  },
+  {
+    id: 13,
+    nome: "Estudar",
+    categoria: "Estudar",
+    gratuito: true,
+    descricao: "Hoje está um ótimo dia para Estudar."
+  },
+  {
+    id: 14,
+    nome: "Sair com a família",
+    categoria: "Entretenimento",
+    gratuito: false,
+    descricao: "Hoje está um ótimo dia para sair com a família."
+  },
+  {
+    id: 15,
+    nome: "Sair com os amigos",
+    categoria: "Entretenimento",
+    gratuito: true,
+    descricao: "Hoje está um ótimo dia para sair com os amigos."
+  },
 ];
