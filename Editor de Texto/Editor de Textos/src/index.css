@@ -7,12 +7,20 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(144, 221, 183);
+  background-image: linear-gradient(rgba(87, 255, 244, 0.911), rgb(225, 254, 255));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+
+.p {
+  background: black;
+  font-size: 20px;
 }
 
 /* Container Principal*/
@@ -22,23 +30,26 @@ body {
   padding: 24px;
   text-align: center;
 }
+
 .header-home h1 {
   font-size: 1.8rem;
   font-weight: 800;
   color: #000000;
   margin-bottom: 8px;
 }
+
 .header-home p {
   color: #18212e;
   font-size: 1rem;
   margin-bottom: 24px;
 }
+
 /* Botão principal*/
 .botao-comecar {
-  background-color: linear-gradient(135DEG, #2563eb, #1d4ed8);
+  background: #5089fb;
+  font-weight: bold;
   color: black;
   font-size: 1.1rem;
-  font-weight: 200;
   padding: 14px 20px;
   border: none;
   border-radius: 6px;
@@ -46,6 +57,7 @@ body {
   box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.4);
   transition: all 0.3s ease-in-out;
 }
+
 .botao-comecar:hover:not(:disabled) {
   transform: translateY(-2px);
   box-shadow: 0 15px 25px -5px rgba(37, 99, 235, 0.5);
@@ -68,7 +80,7 @@ body {
   margin-top: 32px;
   text-align: left;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-  border:  1px solid rgb(193, 255, 21);
+  border: 1px solid rgb(193, 255, 21);
   position: relative;
   overflow: hidden;
 }
@@ -81,10 +93,9 @@ body {
 @keyframes popIn {
   from {
     opacity: 0;
-    transform:  scale(0.92) translateY(10px);
+    transform: scale(0.92) translateY(10px);
   }
-
-  to{
+  to {
     opacity: 1;
     transform: scale(1) translateY(0);
   }
@@ -92,14 +103,14 @@ body {
 
 .sugestao-card h2 {
   font-size: 1.4rem;
-  color:  #0f172a;
+  color: #0f172a;
   margin: 12px 0 8px 0;
 }
 
 .sugestao-card p {
   color: #000000;
   font-size: 0.95rem;
-  line-height:  1.5;
+  line-height: 1.5;
   margin-bottom: 16px;
 }
 
@@ -140,13 +151,10 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
-
   background: rgba(0, 0, 0, 0.5);
   color: rgb(0, 0, 0);
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,7 +164,6 @@ body {
   background: white;
   width: 500px;
   max-width: 90%;
-
   padding: 30px;
   border-radius: 12px;
   position: relative;
@@ -171,7 +178,8 @@ body {
   font-size: 20px;
   cursor: pointer;
 }
-.modal-conteudo form{
+
+.modal-conteudo form {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -179,38 +187,30 @@ body {
 
 .modal-conteudo input,
 .modal-conteudo textarea {
-    width: 100%;
-    padding: 12px;
-
-    border: 1px solid #ccc;
-    border-radius: 8px;
-
-    font-size: 16px;
-
-    box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
 .botao-enviar {
-    width: 100%;
-    padding: 15px;
-
-    background: #2e7d32;
-    color: white;
-
-    border: none;
-    border-radius: 8px;
-
-    font-size: 18px;
-    font-weight: bold;
-
-    cursor: pointer;
-    transition: 0.3s;
+  width: 100%;
+  padding: 15px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .botao-enviar:hover {
   background: #256b29;
   transform: translateY(-2px);
-
 }
 
 .botao-feedback {
@@ -223,7 +223,6 @@ body {
   padding: 16px 28px;
   font-size: 1.1rem; 
   font-weight: 600; 
- 
   background-color: #9fdaf5; 
   border: none;
   border-radius: 50px; 
@@ -232,11 +231,13 @@ body {
   transition: all 0.3s ease;
   z-index: 99;
 }
+
 .botao-feedback:hover {
   background-color: #7b8cbd; 
   transform: translateY(-3px) scale(1.02); 
-  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4); /
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4); /* Removida a barra / que estava aqui */
 }
+
 .botao-feedback:active {
   transform: translateY(-1px) scale(1); 
   box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);

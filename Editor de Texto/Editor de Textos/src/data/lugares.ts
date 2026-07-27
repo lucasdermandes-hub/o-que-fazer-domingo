@@ -9,66 +9,66 @@ export interface Lugar {
 export const lugares: Lugar[] = [
   {
     id: 1,
-    nome: "Parque Ambiental",
+    nome: "Parque",
     categoria: "Ar Livre",
     gratuito: true,
-    descricao: "Ótimo lugar para caminhadas e piqueniques ao ar livre."
+    descricao: "Hpje está um ótimo dia para caminhadar e fazer um piquenique ao ar livre."
   },
   {
     id: 2,
     nome: "Shopping",
     categoria: "Passeio",
     gratuito: false,
-    descricao: "Ótimo lugar para fazer lanches, fazer compras."
+    descricao: "Hoje é um ótimo dia para fazer um lanche, fazer compras no Shopping."
   },
   {
     id: 3,
     nome: "Ir ao cinema",
     categoria: "Entretenimento",
     gratuito: false,
-    descricao: "Ótimo lugar para assistir filmes e se divertir."
+    descricao: "Hoje está um ótimo dia para assistir filmes e se divertir."
   },
   {
     id: 4,
     nome: "Correr",
     categoria: "Ar Livre",
     gratuito: true,
-    descricao: "Ótimo para se exercitar."
+    descricao: "Hoje está um ótimo dia para correr."
   },
   {
     id: 5,
     nome: "Assistir um filme",
     categoria: "Entretenimento",
     gratuito: true,
-    descricao: "Assista um filme."
+    descricao: "Hoje está um ótimo dia para assistir um filme."
   },
   {
     id: 6,
     nome: "Assistir uma série",
     categoria: "Entretenimento",
     gratuito: true,
-    descricao: "Assista uma série."
+    descricao: "Hoje está um ótimo dia para assistir uma série."
   },
   {
     id: 7,
-    nome: "Peça um lanche",
+    nome: "Pedir um lanche",
     categoria: "Comida",
     gratuito: false,
-    descricao: "Peça uma comida."
+    descricao: "Hoje está um ótimo dia para pedir um lanche."
   },
   {
     id: 8,
-    nome: "Passeie com seu cachorro",
+    nome: "Passear com cachorro",
     categoria: "Ar Livre",
     gratuito: true,
-    descricao: "Ótimo lugar para caminhar e passear com seu cachorro."
+    descricao: "Hoje está um ótimo dia para passear com o seu cachorro."
   },
   {
     id: 9,
-    nome: "Jogar Vídeo Game 🎮",
+    nome: "Jogar vídeo game 🎮",
     categoria: "Vídeo Game",
     gratuito: true,
-    descricao: "Ótimo dia para jogar vídeo game."
+    descricao: "Hoje está um ótimo dia para jogar vídeo game."
   },
   {  
     id: 10,
@@ -79,14 +79,14 @@ export const lugares: Lugar[] = [
   },
   {
     id: 11,
-    nome: "Ir para a academia",
+    nome: "Academia",
     categoria: "Atividade Física",
     gratuito: false,
-    descricao: "Ótimo lugar para praticar uma aividade física."
+    descricao: "Hoje está um ótimo dia para ir para a Academia."
   },
   {
     id: 12,
-    nome: "Caminhadar",
+    nome: "Caminhar",
     categoria: "Ar Livre",
     gratuito: true,
     descricao: "Hoje está um ótimo dia para dar uma caminhada."
@@ -112,4 +112,54 @@ export const lugares: Lugar[] = [
     gratuito: true,
     descricao: "Hoje está um ótimo dia para sair com os amigos."
   },
+  {
+    id: 16,
+    nome: "Sorvete",
+    categoria: "Comida",
+    gratuito: false,
+    descricao: "Hoje está um ótimo dia para tomar um sorvete."
+  },
+  {
+    id: 17,
+    nome: "Mercado",
+    categoria: "Entretenimento",
+    gratuito: false,
+    descricao: "Hoje está um ótimo dia para ir ao mercado."
+  },
+  {
+    id: 18,
+    nome: "",
+    categoria: "Entretenimento",
+    gratuito: true,
+    descricao: "Hoje está um ótimo dia para sair com os amigos."
+  },
+  {
+    id: 19,
+    nome: "",
+    categoria: "Entretenimento",
+    gratuito: true,
+    descricao: "Hoje está um ótimo dia para sair com os amigos."
+  },
+  {
+    id: 20,
+    nome: "",
+    categoria: "Entretenimento",
+    gratuito: true,
+    descricao: "Hoje está um ótimo dia para sair com os amigos."
+  },
+  {
+    id: 21,
+    nome: "",
+    categoria: "Entretenimento",
+    gratuito: true,
+    descricao: "Hoje está um ótimo dia para sair com os amigos."
+  },
+  {
+    id: 22,
+    nome: "",
+    categoria: "Entretenimento",
+    gratuito: true,
+    descricao: "Hoje está um ótimo dia para sair com os amigos."
+  },
+
 ];
