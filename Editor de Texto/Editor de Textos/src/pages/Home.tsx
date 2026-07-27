@@ -48,8 +48,8 @@ function Home() {
         disabled={estaSorteando}
       >
         {lugarSorteado
-          ? "Sortear outra opção 🎲"
-          : "Sortear ideia de Domingo 🎲"}
+          ? "SORTEAR OUTRA IDEIA 🎲"
+          : "SORTEAR IDEIA DE DOMINGO 🎲"}
       </button>
 
       {/* Resultado do Sorteio */}

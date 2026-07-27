@@ -3,7 +3,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <footer className="footer">
-      Projeto desenvolvido para entretenimento!
+   ® Este site possui todos os direitos reservados. 
     </footer>
   );
 }
