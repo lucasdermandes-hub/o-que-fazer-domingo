@@ -1,32 +1,16 @@
-# React + TypeScript + Vite
+# 🎲 O Que Fazer no Domingo?
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 📌 Sobre o Projeto
+O objetivo deste projeto é ajudar as pessoas a encontrarem ideias do que fazer no domingo, oferecendo sugestões criativas e acessíveis para quem está sem inspiração.
 
-Currently, two official plugins are available:
+## ⚙️ Como Funciona
+O projeto conta com um **simulador/gerador de ideias**. Ao clicar no botão de sorteio, o sistema escolhe aleatoriamente uma atividade e a exibe para o usuário. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O usuário pode realizar quantas consultas/sorteios desejar!
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 💡 Informações do Resultado
+Cada ideia sorteada traz um conjunto completo de detalhes para que o usuário aproveite ao máximo o seu dia:
+* **Categoria:** (Ex: Lazer, Esportes, Cultura, Descanso)
+* **Nome da Ideia:** O título da atividade sugerida.
+* **Descrição Explicativa:** Um texto detalhado com dicas de como aproveitar a atividade.
+* **Custo:** Indicação clara se a ideia é **gratuita** ou **paga**.

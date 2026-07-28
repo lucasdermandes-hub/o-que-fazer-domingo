@@ -66,7 +66,7 @@ export const lugares: Lugar[] = [
   {
     id: 9,
     nome: "Jogar vídeo game 🎮",
-    categoria: "Vídeo Game",
+    categoria: "Entretenimento",
     gratuito: true,
     descricao: "Hoje está um ótimo dia para jogar vídeo game."
   },
@@ -165,22 +165,28 @@ export const lugares: Lugar[] = [
     id: 23,
     nome: "Ir para Praia",
     categoria: "Entretenimento",
-    gratuito: false,
+    gratuito: true,
     descricao: "Hoje está um ótimo dia para ir a Praia."
   },
   {
     id: 24,
     nome: "Andar pela Cidade",
     categoria: "Entretenimento",
-    gratuito: false,
+    gratuito: true,
     descricao: "Hoje está um ótimo dia para Andar pela Cidade."
   },
   {
     id: 25,
     nome: "Fazer um Churrasco e tomar uma.",
-    categoria: "Entretenimento",
+    categoria: "Comida",
     gratuito: false,
     descricao: "Hoje está um ótimo dia para fazer um Churrasco e tomar uma."
   },
-
+  {
+    id: 26,
+    nome: "Jogar Basquete.",
+    categoria: "Esportes",
+    gratuito: true,
+    descricao: "Hoje está um ótimo dia para jogar Baquete."
+  },
 ];
