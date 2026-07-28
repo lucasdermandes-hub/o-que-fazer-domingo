@@ -121,45 +121,66 @@ export const lugares: Lugar[] = [
   },
   {
     id: 17,
-    nome: "Mercado",
+    nome: "Ir ao Mercado",
     categoria: "Entretenimento",
     gratuito: false,
     descricao: "Hoje está um ótimo dia para ir ao mercado."
   },
   {
     id: 18,
-    nome: "",
-    categoria: "Entretenimento",
+    nome: "Jogar Vôlei",
+    categoria: "Esportes",
     gratuito: true,
-    descricao: "Hoje está um ótimo dia para sair com os amigos."
+    descricao: "Hoje está um ótimo dia para jogar vôlei."
   },
   {
     id: 19,
-    nome: "",
-    categoria: "Entretenimento",
+    nome: "Jogar Futebol",
+    categoria: "Esportes",
     gratuito: true,
-    descricao: "Hoje está um ótimo dia para sair com os amigos."
+    descricao: "Hoje está um ótimo dia para jogar Futebol."
   },
   {
     id: 20,
-    nome: "",
-    categoria: "Entretenimento",
-    gratuito: true,
-    descricao: "Hoje está um ótimo dia para sair com os amigos."
+    nome: "Jantar",
+    categoria: "Comida",
+    gratuito: false,
+    descricao: "Hoje está um ótimo dia para fazer um jantar."
   },
   {
     id: 21,
-    nome: "",
-    categoria: "Entretenimento",
+    nome: "Dormir",
+    categoria: "Descansar",
     gratuito: true,
-    descricao: "Hoje está um ótimo dia para sair com os amigos."
+    descricao: "Hoje está um ótimo dia para Dormir."
   },
   {
     id: 22,
-    nome: "",
+    nome: "Viajar",
     categoria: "Entretenimento",
-    gratuito: true,
-    descricao: "Hoje está um ótimo dia para sair com os amigos."
+    gratuito: false,
+    descricao: "Hoje está um ótimo dia para viajar."
+  },
+  {
+    id: 23,
+    nome: "Ir para Praia",
+    categoria: "Entretenimento",
+    gratuito: false,
+    descricao: "Hoje está um ótimo dia para ir a Praia."
+  },
+  {
+    id: 24,
+    nome: "Andar pela Cidade",
+    categoria: "Entretenimento",
+    gratuito: false,
+    descricao: "Hoje está um ótimo dia para Andar pela Cidade."
+  },
+  {
+    id: 25,
+    nome: "Fazer um Churrasco e tomar uma.",
+    categoria: "Entretenimento",
+    gratuito: false,
+    descricao: "Hoje está um ótimo dia para fazer um Churrasco e tomar uma."
   },
 
 ];
