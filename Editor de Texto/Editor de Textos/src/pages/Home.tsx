@@ -37,7 +37,7 @@ function Home() {
   return (
     <main className="home">
       <header className="header-home">
-        <h1>O que fazer em domingo em Tubarão/SC! ☀️</h1>
+        <h1>O que fazer domingo em Tubarão/SC! ☀️</h1>
         <p>Está indeciso? Deixe que a gente escolhe por você!</p>
       </header>
 
