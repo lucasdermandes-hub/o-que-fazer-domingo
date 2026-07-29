@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
 import { lugares, type Lugar } from "../data/lugares";
+import { Relogio } from "../components/Relogio";
 
-function Home() {
+export function Home() {
   const [lugarSorteado, setLugarSorteado] = useState<Lugar | null>(null);
   const [estaSorteando, setEstaSorteando] = useState(false);
-
   const [modalAberto, setModalAberto] = useState(false);
 
   // Função para sortear com o efeito de roleta
@@ -37,6 +37,8 @@ function Home() {
   return (
     <main className="home">
       <header className="header-home">
+        {/* Relógio inserido aqui */}
+        <Relogio />
         <h1>O que fazer domingo em Tubarão/SC! ☀️</h1>
         <p>Está indeciso? Deixe que a gente escolhe por você!</p>
       </header>
@@ -79,7 +81,7 @@ function Home() {
         </div>
       )}
 
-     <button
+      <button
         className="botao-feedback"
         onClick={() => setModalAberto(true)}
       >

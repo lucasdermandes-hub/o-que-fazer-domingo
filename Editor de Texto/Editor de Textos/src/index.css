@@ -252,3 +252,8 @@ body {
   transform: translateY(-1px) scale(1); 
   box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
 }
+
+.relogio-container{
+  font-weight: bold;
+  font-family:  Outfit, sans-serif;
+}
